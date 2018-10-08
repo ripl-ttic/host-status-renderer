@@ -5,7 +5,7 @@ add_library(host-status-renderer SHARED
 
 target_link_libraries(host-status-renderer ${OPENGL_LIBRARIES})
 
-set(REQUIRED_LIBS bot2-vis lcmtypes_lcmtypes_host-status)
+set(REQUIRED_LIBS bot2-vis lcmtypes_host-status)
 
 pods_use_pkg_config_packages(host-status-renderer ${REQUIRED_LIBS})
 
